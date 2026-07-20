@@ -140,6 +140,35 @@ Install required libraries:
 - Improve model performance using advanced algorithms
 
 ---
+## How to Run the Streamlit Application
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/shivanibharwaj/customer-bank-churn-prediction.git
+```
+
+### 2. Navigate to Project Folder
+
+```bash
+cd customer-bank-churn-prediction
+```
+
+### 3. Install Required Libraries
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Run the Application
+
+```bash
+streamlit run app.py
+```
+
+The application will open in your browser where users can enter customer details and get churn predictions.
+
+---
 
 ## Author
 
