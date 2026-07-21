@@ -106,14 +106,25 @@ The model is evaluated using:
 ---
 ## Model Performance
 
-The final model used for prediction is Random Forest Classifier.
+The final model used for customer churn prediction is **Random Forest Classifier**.
 
 Performance of the model:
 
 - Accuracy: 86.65%
+- Precision: 0.76
+- Recall: 0.46
+- F1 Score: 0.58
 
-Random Forest was selected because it combines multiple decision trees and provides better performance while reducing overfitting.
+Classification Report:
 
+| Metric | Score |
+|--------|-------|
+| Accuracy | 86.65% |
+| Precision | 0.76 |
+| Recall | 0.46 |
+| F1 Score | 0.58 |
+
+Random Forest was selected because it combines multiple decision trees and reduces overfitting, providing better prediction performance.
 ## Project Structure
 bank-churn-prediction/
 
