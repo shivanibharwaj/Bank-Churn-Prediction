@@ -104,6 +104,15 @@ The model is evaluated using:
 - Confusion Matrix
 
 ---
+## Model Performance
+
+The final model used for prediction is Random Forest Classifier.
+
+Performance of the model:
+
+- Accuracy: 86.65%
+
+Random Forest was selected because it combines multiple decision trees and provides better performance while reducing overfitting.
 
 ## Project Structure
 bank-churn-prediction/
